@@ -8,10 +8,10 @@ When you hit sign-up, the data you provided will be displayed back in the main a
 Given: July 10th, 2019
 
 # Screenshots
-![Alt text](Screenshots/4.1.png?raw=true "Main Activity")
+![Alt text](Screenshots/_4.1.png?raw=true "Main Activity")
 
-![Alt text](Screenshots/4.2.png?raw=true "Entered Second Activity")
+![Alt text](Screenshots/_4.2.png?raw=true "Entered Second Activity")
 
-![Alt text](Screenshots/4.3.png?raw=true "Input Values In The Second Activity")
+![Alt text](Screenshots/_4.3.png?raw=true "Input Values In The Second Activity")
 
-![Alt text](Screenshots/4.4.png?raw=true "Displayed Values In The Main Activity")
+![Alt text](Screenshots/_4.4.png?raw=true "Displayed Values In The Main Activity")
