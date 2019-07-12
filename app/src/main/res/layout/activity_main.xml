@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp"
+        android:gravity="center_vertical"
+        >
+
+        <TextView
+            android:hint="Username"
+            android:textColor="@android:color/black"
+            android:id="@+id/txtViewMainUsername"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            style="@style/AlignCenterVerticalHorizontal"
+            />
+        <TextView
+            android:hint="Age"
+            android:textColor="@android:color/black"
+            android:id="@+id/txtViewMainAge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtViewMainUsername"
+            android:textAlignment="center"
+            style="@style/AlignCenterVerticalHorizontal"/>
+        <TextView
+            android:textColor="@android:color/black"
+            android:hint="Gender"
+            android:id="@+id/txtViewMainGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtViewMainAge"
+            android:textAlignment="center"
+            style="@style/AlignCenterVerticalHorizontal"/>
+        <TextView
+            android:text="Hobbies"
+            android:textSize="20dp"
+            android:id="@+id/txtViewMainHobbiesLabel"
+            android:textColor="@android:color/holo_blue_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtViewMainGender"
+            android:textAlignment="center"
+            style="@style/AlignCenterVerticalHorizontal"/>
+
+        <ListView
+            android:id="@+id/listViewMainHobbies"
+            style="@style/AlignCenterVerticalHorizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="206dp"
+            android:layout_below="@+id/txtViewMainHobbiesLabel" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Register"
+            android:layout_below="@+id/listViewMainHobbies"
+            style="@style/AlignCenterVerticalHorizontal"/>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

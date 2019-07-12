@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp"
+        >
+
+        <EditText
+            android:id="@+id/edtTxtSgnupUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Username" />
+
+        <EditText
+
+            android:id="@+id/edtTxtSgnupAge"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:maxLength="3"
+            android:hint="Age"/>
+
+        <Spinner
+            android:tooltipText="Gender"
+            android:id="@+id/sprSgnupGender"
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"></Spinner>
+
+        <TextView
+            android:text="Hobbies"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_height="0dp"
+            android:layout_width="match_parent">
+            <CheckBox
+                android:id="@+id/chkboxSgnup1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Basketball"/>
+            <CheckBox
+                android:id="@+id/chkboxSgnup2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mixed-Martial Arts"/>
+            <CheckBox
+                android:id="@+id/chkboxSgnup3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cooking"/>
+            <CheckBox
+                android:id="@+id/chkboxSgnup4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sleeping"/>
+            <CheckBox
+                android:id="@+id/chkboxSgnup5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eating"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_gravity="end"
+            android:id="@+id/btnSgnup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Signup"/>
+
+
+
+    </LinearLayout>
+</RelativeLayout>
